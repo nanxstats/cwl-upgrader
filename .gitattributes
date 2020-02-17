@@ -1,2 +1,3 @@
 css/* linguist-vendored
 www/* linguist-vendored
+server/*.py linguist-vendored
