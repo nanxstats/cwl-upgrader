@@ -1683,14 +1683,14 @@ a:hover, a:active, a:focus {
 }
 
 .box.box-solid.box-primary {
-  border: 1px solid rgb(199, 199, 199);
+  border: 1px solid #cdd7df;
 }
 
 .box.box-solid.box-primary>.box-header {
   color: #ffffff;
-  background: rgb(249, 249, 249);
-  background-color: rgb(249, 249, 249);
-  border-bottom: 1px solid rgb(199, 199, 199);
+  background: #f3f5f7;
+  background-color: #f3f5f7;
+  border-bottom: 1px solid #cdd7df;
 }
 
 .box.box-solid.box-primary>.box-header a, .box.box-solid.box-primary>.box-header .btn {
@@ -1828,11 +1828,12 @@ a:hover, a:active, a:focus {
 
 .box-header>.fa, .box-header>.glyphicon, .box-header>.ion, .box-header .box-title {
   display: inline-block;
-  font-size: 15px;
-  margin: 0;
-  line-height: 1;
+  font-size: 14px;
   font-weight: 700;
-  color: rgb(102, 102, 102);
+  color: #222c35;
+  padding-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .box-header>.fa, .box-header>.glyphicon, .box-header>.ion {
