@@ -3,12 +3,12 @@ tabPanel(
   title = "CWL Upgrader",
 
   # use shinydashboard components
-  includeCSS(path = "css/AdminLTE.css"),
-  includeCSS(path = "css/shinydashboard.css"),
+  includeCSS(path = "www/AdminLTE.css"),
+  includeCSS(path = "www/shinydashboard.css"),
 
   # customize bootstrap and ace editor
-  includeCSS(path = "css/ace.css"),
-  includeCSS(path = "css/custom.css"),
+  includeCSS(path = "www/ace.css"),
+  includeCSS(path = "www/custom.css"),
 
   shinydashboard::box(
     width = 6,
