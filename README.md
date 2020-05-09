@@ -18,6 +18,11 @@ virtualenv_install("venv", packages = c("sevenbridges-cwl-draft2-upgrader"), ign
 use_virtualenv("venv", required = TRUE)
 ```
 
+## Related apps
+
+- [cwl-formatter](https://github.com/nanxstats/cwl-formatter) - Shiny app to format Common Workflow Language apps.
+- [cwl-exploder](https://github.com/nanxstats/cwl-exploder) - Shiny app to unpack monolithic CWL workflows and split them into smaller components.
+
 ## Copyright
 
 © 2020 Seven Bridges Genomics, Inc. All rights reserved.
